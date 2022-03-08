@@ -1,38 +1,64 @@
-.App {
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  background-color: rgb(53, 117, 212);
+}
+h1{
   text-align: center;
+  font-size: 80px;
+}
+.table-con{
+  display: inline-table;
+  margin-left: 25%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table-con td{
+  text-align: center;
+  margin-left: 50px;
+}
+.table-con th{
+  padding: 10px;
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.table-con button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding:10px;
+  margin: 30px;
+  border: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgba(109, 211, 236, 0.11);
+  border-radius: 10px;
+}
+.table-con button:hover{
+  background-color: rgb(18, 100, 96);
+  border: 2px solid rgb(2, 57, 65);
+  
+}
+.btn-menu{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  margin: 10px 150px 10px 0px;
+  font-size: larger
+
+}
+.btn-menu button{
+  margin-left: 100px;
+  border: none;
+  color: black;
+  width: 150px;
+  height: 30px;
+  background-color: rgba(109, 211, 236, 0.11);
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-menu button:hover{
+  background-color: rgb(18, 100, 96);
+  border: 2px solid rgb(2, 57, 65);
+  
 }
